@@ -1,0 +1,30 @@
+{
+  "name": "user-activity-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sailakshmidurga/user-activity-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sailakshmidurga/user-activity-tracker/issues"
+  },
+  "homepage": "https://github.com/sailakshmidurga/user-activity-tracker#readme",
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "axios": "^1.13.6",
+    "jest": "^30.2.0",
+    "mysql2": "^3.19.0",
+    "supertest": "^7.2.2"
+  }
+}
